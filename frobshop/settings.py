@@ -168,7 +168,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+	
 HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',

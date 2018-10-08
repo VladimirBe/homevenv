@@ -12,12 +12,16 @@
 {% block headertext %}{{ summary }}{% endblock %}
 
 {% block breadcrumbs %}
-    <ul class="breadcrumb">
+<div id="breadcrumb">
+<div class="container">
+  <ul class="breadcrumb">
         <li>
             <a href="{{ homepage_url }}">{% trans "Home" %}</a>
         </li>
         <li class="active">{{ summary }}</li>
-    </ul>
+      </ul>
+  		</div>
+  	</div>
 {% endblock breadcrumbs %}
 
 {% block column_left %}
